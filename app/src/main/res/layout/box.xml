@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FF4B4B4B"
+		android:padding="5dp"
+		android:text="Hex code"
+		android:id="@+id/hhhhhhb"
+		android:textColor="#FFFFFF"
+		android:textSize="16sp"
+		android:textStyle="bold"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#EEEEEE"
+		android:padding="10dp">
+
+		<EditText
+			android:id="@+id/hexCodeInput"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:text="00 00 80 D2"
+			android:textSize="16sp"
+			android:background="@android:color/transparent"
+			android:scrollbars="vertical"
+			android:layout_marginEnd="50dp"/>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentEnd="true"
+			android:layout_centerVertical="true"
+			android:orientation="vertical">
+
+			<ImageButton
+				android:id="@+id/btnCopy"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:background="@android:color/transparent"
+				android:src="@drawable/ic_content_copy"
+				android:contentDescription="Copy"/>
+
+			<ImageButton
+				android:id="@+id/btnClipboard"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:background="@android:color/transparent"
+				android:src="@drawable/ic_content_paste"
+				android:contentDescription="Clipboard"/>
+
+			<ImageButton
+				android:id="@+id/btnClose"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:background="@android:color/transparent"
+				android:src="@drawable/ic_close"
+				android:contentDescription="Close"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:background="@drawable/button"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="30dp"
+		android:id="@+id/titleText2"
+		android:background="#FF4B4B4B">
+
+		<TextView
+			android:id="@+id/titleText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="THUMB Big Endian"
+			android:textSize="13sp"
+			android:textStyle="bold"
+			android:layout_marginLeft="5dp"
+			android:textColor="#FFFFFF"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"/>
+
+		<ImageButton
+			android:id="@+id/copyButton"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/copy2"
+			android:scaleType="centerInside"
+			android:contentDescription="Copy"
+			android:background="@android:color/transparent"/>
+
+	</RelativeLayout>
+
+	<TextView
+		android:id="@+id/codeSnippet"
+		android:layout_width="match_parent"
+		android:background="#EEEEEE"
+		android:layout_height="wrap_content"
+		android:text="movs r0, r0\nstrh r2, [r2, #6]"
+		android:textSize="14sp"
+		android:padding="2dp"
+		android:textColor="#FF4B4B4B"
+		android:elevation="10dp"/>
+
+</LinearLayout>
+
