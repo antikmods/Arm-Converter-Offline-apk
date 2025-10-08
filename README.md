@@ -37,7 +37,7 @@ Everything runs natively on Android — **no PC required**.
 
 ## Screenshots
 
-| HEX TO ARM | ARM TO HEX |
+| ARM TO HEX | HEX TO ARM |
 |-------------|-------------|
 | ![HEX TO ARM](images/ARM.png) | ![ARM TO HEX](images/HEX.png) |
 
